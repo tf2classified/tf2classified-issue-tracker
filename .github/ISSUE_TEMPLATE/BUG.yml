@@ -1,0 +1,32 @@
+name: Report a Bug
+title: ""
+description: Report a bug, crash, or other issue in TF2 Classified
+projects: []
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: dropdown-0
+    attributes:
+      label: Platform
+      description: Which platform were you playing on?
+      options:
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: input-1
+    attributes:
+      label: GPU
+      description: What is your GPU?
+      placeholder: (e.g. NVIDIA GeForce RTX 3080 Ti, Intel UHD Graphics 770)
+    validations:
+      required: false
+  - type: textarea
+    id: textarea-2
+    attributes:
+      label: Description
+      description: Please describe your issue, using as much detail as you can.
+    validations:
+      required: true
