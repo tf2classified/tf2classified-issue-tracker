@@ -35,5 +35,7 @@ body:
     attributes:
       label: Checklist
       options:
+        - label: I confirm I have tested this issue without mods and confirm it still occurs
+          required: true
         - label: I have searched existing issues and confirm this issue is new
           required: true
