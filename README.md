@@ -1,4 +1,8 @@
-# Team Fortress 2 Classified Issue Tracker
-Report TF2 Classified issues and bugs here. Please ensure the issue you're reporting hasn't been reported yet, and happens without mods.
+# Team Fortress 2 Classified - Issue Tracker
+This repository is for reporting bugs and other issues within Team Fortress 2 Classified.
 
-### **[Click here](https://github.com/tf2classified/tf2classified-issue-tracker/issues/new?template=BUG.yml)** to create a new bug report. Requires a GitHub account.
+## Contributing
+You can report bugs by [**creating an issue**](../../issues/new?template=BUG.yml). Please make sure the issue you're reporting:
+- Happens on the latest version of the game
+- Happens without client-side mods enabled
+- Has not yet been reported
