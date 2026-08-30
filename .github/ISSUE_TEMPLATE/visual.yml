@@ -1,0 +1,48 @@
+name: Report a visual issue
+description: Report a visual issue in Team Fortress 2 Classified
+title: "[VISUAL] "
+labels:
+  - Visual
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform were you playing on when the issue occurred?
+      options:
+        - Windows
+        - Linux (Native)
+        - Linux (Proton)
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      description: >-
+        What was the model of your GPU at the time of the issue occurring?
+        Optional.
+      placeholder: (e.g. NVIDIA GeForce RTX 3080 Ti, Intel UHD Graphics 770)
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: >-
+        Please describe the issue. Include as many details as you can, as well
+        as screenshots or videos where applicable.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: >-
+        Before you can submit your issue, please make sure you complete all of
+        the following. It helps us a lot!
+      options:
+        - label: I have tested this on the latest version of the game
+          required: true
+        - label: I have tested this without client-side mods enabled
+          required: true
+        - label: I have checked for existing issues and confirm this issue is new
+          required: true
