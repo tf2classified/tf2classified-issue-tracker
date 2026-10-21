@@ -2,7 +2,7 @@ name: Report a UI issue
 description: Report a UI issue in Team Fortress 2 Classified
 title: "[UI] "
 labels:
-  - UI
+  - Type - UI
 body:
   - type: dropdown
     id: platform

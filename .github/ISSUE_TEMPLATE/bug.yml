@@ -2,7 +2,7 @@ name: Report a bug
 description: Report a bug in Team Fortress 2 Classified
 title: "[BUG] "
 labels:
-  - Bug
+  - Type - Bug
 body:
   - type: dropdown
     id: platform

@@ -2,7 +2,7 @@ name: Report a map issue
 description: Report a map issue in Team Fortress 2 Classified
 title: "[MAP] "
 labels:
-  - Map
+  - Type - Map
 body:
   - type: dropdown
     id: platform

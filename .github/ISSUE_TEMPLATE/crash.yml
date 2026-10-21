@@ -2,7 +2,7 @@ name: Report a crash
 description: Report a crash in Team Fortress 2 Classified
 title: "[CRASH] "
 labels:
-  - Crash
+  - Type - Crash
 body:
   - type: dropdown
     id: platform

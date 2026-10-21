@@ -2,7 +2,7 @@ name: Report a visual issue
 description: Report a visual issue in Team Fortress 2 Classified
 title: "[VISUAL] "
 labels:
-  - Visual
+  - Type - Visual
 body:
   - type: dropdown
     id: platform
