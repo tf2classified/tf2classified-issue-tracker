@@ -15,6 +15,14 @@ body:
         - Linux (Proton)
     validations:
       required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      description: >-
+        What was the model of your GPU at the time of the issue occurring?
+        Optional.
+      placeholder: (e.g. NVIDIA GeForce RTX 3080 Ti, Intel UHD Graphics 770)
   - type: textarea
     id: description
     attributes:
